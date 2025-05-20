@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muthumanikandan s| Portfolio</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(6px);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #fff;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .projects, .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 1rem;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .contact a {
+      color: #ffda77;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muthumanikandan S</h1>
+    <p>Web Developer | Tech Enthusiast | Lifelong Learner|IT Support</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I’m Muthumanikandan, I am a motivated and detail-oriented professional with a passion for combining creativity and efficiency in every aspect of my work. With a strong foundation in IT Support and Full stack , thrive in dynamic environments that challenge me to learn, adapt, and deliver excellence. My strengths lie in effective communication, problem-solving, and a consistent drive to exceed expectations. I value continuous learning, meaningful connections, and expressing culture through art and aesthetics. Whether I'm collaborating on a team project or independently managing a task, I approach each opportunity with dedication and a desire to make a lasting impact
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>DailyRead</h3>
+        <p>A full-stack book review app built with Node.js and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Interactive Photo Gallery</h3>
+        <p>Accessible, responsive gallery using Lightbox, JS events, and modern HTML5/CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Code Smell Detector</h3>
+        <p>Python ML model for identifying bad practices in source code.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">HTML5, CSS3, JavaScript</div>
+      <div class="card">React, Node.js, Express</div>
+      <div class="card">Python, Django</div>
+      <div class="card">MySQL,B</div>
+      <div class="card">GitHub,</div>
+      <div class="card">Troubleshooting,Networking,Hardware,</div>
+      <div class="card">cybersecurity,Microsoft 365 Eco System,</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="contact">Email: <a href="mailto:muthumanikandan@example.com">muthumani5557@gmail.com</a></p>
+    <p class="contact">LinkedIn: <a href="https://linkedin.com/in/muthumanikandan" target="_blank">https://www.linkedin.com/in/muthumanikandan-sivakumar-99b6432a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Muthumanikandan. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
