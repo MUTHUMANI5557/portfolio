@@ -124,6 +124,14 @@
       <div class="card">cybersecurity,Microsoft 365 Eco System,</div>
     </div>
   </section>
+<section id="certifications">
+ <h2> Certificatios</h2>
+    <div class="Certificatios">
+      <div class="card">Full Stack in sofware Engeering  </div>
+      <div class="card">Wordpress</div>
+      <div class="card">Microsoft IT Support </div>
+      <div class="card">Compatia A+</div>
+</section>
 
   <section id="contact">
     <h2>Contact</h2>
